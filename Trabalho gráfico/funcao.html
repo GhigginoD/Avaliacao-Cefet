@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gráfico</title>
+        <script type="text/javascript" src="../js/funcao.js"></script>
+        <script src="../js/equação2°.js"> </script>
+    </head>
+
+    <body onload="main()">
+      <h2> Entre com os valores</h2>
+
+      <p>A: <input type="number" id="a"> </p>
+
+      <p>B: <input type="number" id="b"> </p>
+
+      <p>C: <input type="number" id="c"> </p>
+
+      <p> <button onclick = "res()"> Calcular Equação </button> </p>
+      <p> <button onclick = "main()"> Calcular Gráfico </button> </p>
+
+      <p> A primeira raiz é igual a: <span id="resultado"> ??? </span> </p>
+
+      <p> A segunda raiz é igual a: <span id="resultado1"> ??? </span> </p>
+        <canvas id="canvas" width="500" height="500" style="border:1px black solid;"></canvas>
+    </body>
+
+</html>
